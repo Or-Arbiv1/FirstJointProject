@@ -1,11 +1,8 @@
 
 public class Point
 	{
-	
-	//david: add fields: int x, int y
 	public int x, y;
 
-	//david: add default constructor and p. constructor
 	public Point() {
 		x = 0;
 		y = 0;
@@ -14,10 +11,23 @@ public class Point
 		x = _x;
 		y = _y;
 	}
-	
-			//alex: add function: public int add(PointOther);
 			
 			//or: add function: public int multPoints(Point other);
+
+
+
+
+	public Point add(Point Other) {
+	
+		Point newPoint = new Point();
 		
-			//guy:add function: public String toString();
+		newPoint.x=this.x+Other.x;
+		newPoint.y=this.y+Other.y;
+				
+		return newPoint;
+	}
+  
+  public String toString(){
+    return "x: " +x + "\ty: " y;
+  }
 	}
