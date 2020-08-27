@@ -7,6 +7,10 @@ public class Point
 			//alex: add function: public int add(PointOther);
 			
 			//or: add function: public int multPoints(Point other);
+			
+		public Point multPoints(Point other) {
+			return new Point(this.x*other.x,this.y*other.y);
+		}
 		
 			//guy:add function: public String toString();
 	}
