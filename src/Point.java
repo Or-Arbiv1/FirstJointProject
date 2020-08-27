@@ -3,7 +3,7 @@ public class Point
 	{
 	
 	//david: add fields: int x, int y
-	private int x, y;
+	public int x, y;
 
 	//david: add default constructor and p. constructor
 	public Point() {
@@ -14,7 +14,6 @@ public class Point
 		x = _x;
 		y = _y;
 	}
-	
 	
 			//alex: add function: public int add(PointOther);
 			
