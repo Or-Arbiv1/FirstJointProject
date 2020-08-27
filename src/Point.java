@@ -1,11 +1,22 @@
 
 public class Point
 	{
-			//david: add fields: int x, int y
-			//david: add default constructor and p. constructor
-		
+	public int x, y;
 
-			//alex: add function: public int add(PointOther);
+	public Point() {
+		x = 0;
+		y = 0;
+	}
+	public Point(int _x, int _y) {
+		x = _x;
+		y = _y;
+	}
+			
+			//or: add function: public int multPoints(Point other);
+
+
+
+
 	public Point add(Point Other) {
 	
 		Point newPoint = new Point();
@@ -15,6 +26,7 @@ public class Point
 				
 		return newPoint;
 	}
+
 			
 			//or: add function: public int multPoints(Point other);
 			
