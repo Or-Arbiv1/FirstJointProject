@@ -40,4 +40,14 @@ public class Point
 			{
 				return "x: " +x + "\t y: " +y;
 			}
+			
+			
+			public static void main(String[]args) {
+				Point p1=new Point(5,7);
+				Point p2=new Point();
+				System.out.println(p1.add(p2));
+				System.out.println(p1.multPoints(p2));
+			}
 	}
+
+
